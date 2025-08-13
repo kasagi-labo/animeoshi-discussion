@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Importing Montserrat and Bricolage Grotesque fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* Font for paragraphs and other text */
+            font-family: 'Bricolage Grotesque', sans-serif;
+            line-height: 1.6;
+            /* Dark theme background and text colors */
+            background-color: #180D22;
+            color: #EDEDED;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1, h2 {
+            /* Font for headings */
+            font-family: 'Montserrat', sans-serif;
+            color: #EDEDED;
+        }
+        .container {
+            /* A slightly lighter shade for the main content area */
+            background-color: #180D22;
+            padding: 30px;
+            border-radius: 8px;
+            /* A subtle glow effect for the dark theme */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            /* A lighter separator line for the dark theme */
+            background-color: rgba(237, 237, 237, 0.1);
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Page</h1>
+        <p>This is some content on my webpage. I'm excited to hear your thoughts and feedback in the comments section below!</p>
+        <p>Feel free to discuss the topic, ask questions, or just say hello.</p>
+
+        <!-- A horizontal rule to separate content from comments -->
+        <hr>
+
+        <h2>Comments</h2>
+
+        <!-- 
+          This is the final, complete giscus script.
+          All placeholders have been filled in and the theme is updated.
+        -->
+        <script src="https://giscus.app/client.js"
+            data-repo="kasagi-labo/animeoshi-discussion"
+            data-repo-id="R_kgDOPdCr4Q"
+            data-category="General"
+            data-category-id="DIC_kwDOPdCr4c4CuHSC"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="dark_tritanopia"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+        </script>
+        <!-- End of Giscus Script Section -->
+
+    </div>
+
+</body>
+</html>
